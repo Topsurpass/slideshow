@@ -1,21 +1,21 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "A.A.A Aluminium",
+  "name": "We help construct and install aluminium doors and windows. ",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "logopng.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "logopng.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "80x80"
     },
     {
-      "src": "logo512.png",
+      "src": "logopng.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "80x80"
     }
   ],
   "start_url": ".",
