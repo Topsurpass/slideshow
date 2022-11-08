@@ -3,7 +3,6 @@ import { useEffect } from 'react';
 import './imageSlider.css'
 import window from './Images/window1.jpg'
 import window2 from './Images/window2.jpg'
-import door1 from './Images/door1.jpg'
 import door2 from './Images/door2.jpg'
 import alu from './Images/Aluminium.jpg'
 export const ImageSlider = () => {

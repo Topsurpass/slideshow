@@ -1,7 +1,7 @@
 import './App.css';
 import { ImageSlider } from './ImageSlider';
 import { Navigation } from './Navigation';
-import { Section1 } from './Section1';
+// import { Section1 } from './Section1';
 
 function App() {
   return (
