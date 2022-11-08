@@ -1,0 +1,13 @@
+.container{
+    height:100vh;
+    background-color: rgb(240, 232, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Roboto';
+}
+.container h1{
+    font-size: 40px;
+}

@@ -1,0 +1,121 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    height:77vh;
+}
+.slideContainer{
+    overflow: hidden;
+}
+.slides input{
+    display: none;
+}
+.slides{
+    width:500%;
+    display:flex;
+}
+.slide{
+    width:20%;
+    transition: 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.letterings{
+    position: absolute;
+    width: 100%;
+    word-break: break-all;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 800;
+}
+.letterings h1{   
+    font-size: 60px;
+    width:280px;
+    color:#034f7f;
+    margin:0;
+    padding:0px 40px;
+}
+.letterings h3{
+    color:rgb(10, 117, 150);
+    margin-left: 10%;
+    font-size: 20px;
+}
+.slide img{
+    height:515px;
+    width:100%;
+}
+.manualSlideBut{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.manualBut{
+    border: 1px solid rgb(10, 117, 150);
+    padding:5px;
+    margin-top: -60px;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+.manualBut:not(:last-child),.autoSlideBut div:not(:last-child){
+    margin-right: 5%;
+}
+.manualBut:hover{
+    background-color: rgb(10, 117, 150);
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0%;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+.autoSlideBut{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content:center;
+  align-items:center;
+  margin-top: 479px;
+}
+.autoSlideBut div{
+    padding: 5px;
+    border:1px solid rgb(10, 117, 150);
+    border-radius: 10px;
+    transition: 1s;
+}
+#radio1:checked ~ .autoSlideBut .autoBut1{
+    background: rgb(10, 117, 150);
+}
+#radio2:checked ~ .autoSlideBut .autoBut2{
+    background: rgb(10, 117, 150);
+}
+#radio3:checked ~ .autoSlideBut .autoBut3{
+    background: rgb(10, 117, 150);
+}
+#radio4:checked ~ .autoSlideBut .autoBut4{
+    background: rgb(10, 117, 150);
+}
+
+@media only screen and (max-width:769px){
+    .Container{
+        height:47vh;
+    }
+    .slide img{
+        height:315px;
+    }
+    .autoSlideBut{
+        margin-top: 279px;
+    }
+}

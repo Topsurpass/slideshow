@@ -1,0 +1,43 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100px;
+    font-family: 'Roboto';
+}
+span{  
+    font-size: 16px;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.logo h2{
+    margin-bottom:0px;
+}
+.logo p{
+    margin-top: 0px;
+    font-weight: 500;
+}
+span:not(:last-child){
+    margin-right: 20px;
+}
+.links{
+    margin-right:30px;
+}
+.menu{
+    display:none;
+} 
+@media only screen and (max-width:769px){
+    .menu{
+        display:block;
+        font-size: 30px;
+        margin-right:20px;
+    } 
+    .links{
+        display:none;
+    }
+}
