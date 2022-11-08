@@ -40,4 +40,7 @@ span:not(:last-child){
     .links{
         display:none;
     }
+    .navBar{
+        height: 60px;
+    }
 }

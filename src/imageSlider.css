@@ -3,7 +3,8 @@
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
-    height:77vh;
+    /* height:77vh; */
+    height:515px;
 }
 .slideContainer{
     overflow: hidden;
@@ -110,7 +111,7 @@
 
 @media only screen and (max-width:769px){
     .Container{
-        height:47vh;
+        height:320px;
     }
     .slide img{
         height:315px;
