@@ -19,7 +19,7 @@ export const Navigation = () => {
             <span>Services</span>
             <span>Contact Us</span>
         </div>
-        <span className='menu'><FiMenu/></span>
+        <div className='menu'><FiMenu/></div>
     </div>
   )
 }

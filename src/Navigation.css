@@ -33,7 +33,9 @@ span:not(:last-child){
 } 
 @media only screen and (max-width:769px){
     .menu{
-        display:block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 30px;
         margin-right:20px;
     } 
@@ -41,6 +43,6 @@ span:not(:last-child){
         display:none;
     }
     .navBar{
-        height: 60px;
+        height: 100px;
     }
 }
